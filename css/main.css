@@ -1,0 +1,21 @@
+div{
+	outline: rgb(255,0,0) solid;
+}
+*{
+	padding: 0px;
+	margin:0px;
+}
+
+.primer_fondo{
+	background: url('../img/background/hero.jpg');
+
+}
+nav{
+	display: flex;
+}
+.menu_1 ul{
+	list-style:none;
+}
+.menu_1 ul li{
+	display: flex;
+}
