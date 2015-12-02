@@ -21,15 +21,23 @@ nav{
 
     padding: 10px 5px 10px 5px;
 }
-.menu_1 ul{
-	list-style:none;
+
+ul{
+	list-style: none;
 	display: flex;
 }
+ul li{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ul li a{
+	text-decoration: none;
+}
+
 .menu_1 ul li{
 	 padding: 10px 15px 10px 15px;
 }
 .menu_1 ul li a{
-	text-decoration: none;
 	color: white;
 }
 .primes{
@@ -57,6 +65,9 @@ span{
 .titulo{
 	font-size: 40px;
 }
+.titulo2{
+	font-size: 18px;
+}
 .subtitulo{
 	font-size: 16px;
 
@@ -79,4 +90,45 @@ span{
 	height: 500px;
 }
 
+/* **** Separacion **** */
 
+.fondo_contacto{
+	background: url('../img/background/contactus.jpg');
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* **** Separacion **** */
+
+.menu3 span{
+	color: #555;
+}
+.pie1{
+	margin: 30px 0px 30px 0px;
+	background: white;
+}
+.pie1 p{
+	padding: 15px 25px 10px 25px;
+}
+.redes_sociales{
+	padding: 0px 450px;
+	margin: 15px 0px 15px;
+}
+.pie2{
+	background:#363c46;
+}
+.parrafo_mini{
+	font-size: 10px;
+	color: #c9d1d6;
+	padding: 20px 0px;
+}
