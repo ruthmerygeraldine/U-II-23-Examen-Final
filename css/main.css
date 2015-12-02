@@ -1,21 +1,82 @@
 div{
-	outline: rgb(255,0,0) solid;
+	outline: 1px solid rgb(0,255,0);
 }
 *{
-	padding: 0px;
-	margin:0px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
 }
-
-.primer_fondo{
+.fondo1{
 	background: url('../img/background/hero.jpg');
-
+	height: 1000px;
 }
 nav{
 	display: flex;
+	margin:15px;
+	position: fixed;
+}
+.menu_1 p{
+	padding-left: 10px;
+}
+.menu1{
+
+    padding: 10px 5px 10px 5px;
 }
 .menu_1 ul{
 	list-style:none;
-}
-.menu_1 ul li{
 	display: flex;
 }
+.menu_1 ul li{
+	 padding: 10px 15px 10px 15px;
+}
+.menu_1 ul li a{
+	text-decoration: none;
+	color: white;
+}
+.primes{
+    padding-right: 750px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.menu_1 .ion-ios-star-half{
+	font-size: 24px;
+	color: white;
+}
+
+/** parte del contenido **/
+.contenido{
+	margin-top: 70px;
+	padding-top: 50px;
+	color: white;
+}
+span{
+	color:#0dc0c0;
+	font-size: 30px;
+}
+.titulo{
+	font-size: 40px;
+}
+.subtitulo{
+	font-size: 16px;
+
+}
+.parrafo{
+	font-size: 12px;
+	color: #c9d1d6;
+}
+.contenido p{
+	margin:30px 0px 30px 0px;
+}
+.separacion{
+	display: flex;
+}
+
+/** parte del contenido **/
+
+.fondo2{
+	background: url('../img/laptop-features.png');
+	height: 500px;
+}
+
+
