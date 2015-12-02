@@ -92,21 +92,59 @@ span{
 
 /* **** Separacion **** */
 
-.fondo_contacto{
-	background: url('../img/background/contactus.jpg');
+.fondo_choose{
+	background: #f4f4f4;
+	margin: 15px 0px;
+}
+.info_A{
+	background: white;
+}
+.info_A div:nth-child(1){
+	background: #363c46;
 	color: white;
+	padding: 15px 0px;
+	margin:10px 10px;
+}
+.info_A:nth-child(2) div{
+	background: #0dc0c0;
+	color: white;
+	padding: 15px 0px;
+	margin:10px 10px;
+}
+
+.info_A div:nth-child(2){
+	background: #e8edef;
+	color: gray;
+	padding: 15px 0px;
+	margin:10px 10px;
 }
 
 
 
 
 
+/* **** Separacion **** */
 
+.fondo_customer{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.fondo_customer img{
+	width: 80px;
+	border-radius: 50%;
+}
 
+/* **** Separacion **** */
 
+.fondo_contacto{
+	background: url('../img/background/contactus.jpg');
+	color: white;
+	height: 600px;
+}
+.fondo_contacto p{
+	margin: 20px 15px;
 
-
-
+}
 
 /* **** Separacion **** */
 
